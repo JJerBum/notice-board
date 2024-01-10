@@ -31,6 +31,10 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.junit.jupiter:junit-jupiter'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'nz.net.ultraq.thymleaf:thymeleaf-layout-dialect'
+
+	// version은 따로 적어서 그 해당 버전을 다운로드 한다.
 }
 
 tasks.named('bootBuildImage') {
